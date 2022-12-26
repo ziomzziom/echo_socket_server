@@ -1,5 +1,6 @@
 # echo_socket_server
-# echo To connect to the socket you have to manually change ip address of the server in client.py and server.py 
+
+To connect to the socket you have to manually change ip address of the server in client.py and server.py  <br />
  <br />
 ... <br />
 HEADER = 64 <br />
