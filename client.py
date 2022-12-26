@@ -20,8 +20,7 @@ def send(msg):
     print(client.recv(2048).decode(FORMAT))
 
 while True:
-    send(input())
-    if input == 'exit':
-        pass
+    message = input("Send message: ")
+    send(message)
 
 send(DISCONNECT_MESSAGE)
