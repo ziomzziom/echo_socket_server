@@ -7,6 +7,6 @@ HEADER = 64 <br />
 PORT = 5050 <br />
 FORMAT = 'utf-8' <br />
 DISCONNECT_MESSAGE = "!DISCONNECT" <br />
-SERVER = "192.168.1.114" #REPLACE THIS ADDRESS WITH YOURS 👀👀 <br />
+SERVER = "192.168.1.114"                   #REPLACE THIS ADDRESS WITH YOURS 👀👀 <br />
 ADDR = (SERVER, PORT) <br />
 ... <br />
