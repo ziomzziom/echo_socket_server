@@ -19,8 +19,10 @@ def send(msg):
     client.send(message)
     print(client.recv(2048).decode(FORMAT))
 
-while True:
+def start():
     message = input("Send message: ")
     send(message)
 
+print(f"You have been connected to: {ADDR}")
+start()
 send(DISCONNECT_MESSAGE)
